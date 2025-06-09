@@ -1,15 +1,17 @@
 #include <iostream>
 
-
+using namespace std;
 
 int main() 
 {
-  char first, middle, last;
-  // Store your initials in the variables
-  first = 'C';
-  middle = 'G';
-  last = 'S';
+  string name, address, phonenumber; 
+  // Store your information in the variables
+  name = "Cara Schon";
+  address = "182 Saddletown Rd";
+  phonenumber = "757-790-9971";
 
-  std::cout << first << middle << last;
+  cout << name << endl;
+  cout << address << endl;
+  cout << phonenumber << endl;
   return 0;
   }
